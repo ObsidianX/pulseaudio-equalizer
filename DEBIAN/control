@@ -1,0 +1,9 @@
+Package: pulseaudio-equalizer
+Version: 2.7.0.2
+Section: admin
+Priority: optional
+Architecture: all
+Depends: python (>= 2.3), python-support (>= 0.90.0), swh-plugins, ladspa-sdk, python-gtk2, python-glade2, python-gobject, python-gnome2
+Maintainer: Ryan Loebs <obsidianx@gmail.com>
+Description: PulseAudio Equalizer - LADSPA plugin graphical user interface
+ GUI for PulseAudio's LADSPA interface using Steve Harris' Multiband EQ (mbeq_1197) plugin
